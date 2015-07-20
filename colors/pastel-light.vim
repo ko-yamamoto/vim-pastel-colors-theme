@@ -21,7 +21,7 @@ if exists("syntax_on")
 	syntax reset
 endif
 
-let colors_name = "past-light"
+let colors_name = "pastel-light"
 
 "}}}
 " GUI And Cterm Palettes:"{{{
