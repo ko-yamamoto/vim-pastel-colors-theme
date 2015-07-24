@@ -204,17 +204,17 @@ exe "hi! WarningMsg"   .s:fg_red         .s:bg_none        .s:fmt_none
 " ----------------------------------------------------------------------------
 exe "hi! Comment"    .s:fg_comment     .s:bg_none   .s:fmt_none
 
-exe "hi! Constant"   .s:fg_green        .s:bg_none   .s:fmt_none
+exe "hi! Constant"   .s:fg_green        .s:bg_none   .s:fmt_bold
 exe "hi! String"    .s:fg_green       .s:bg_none   .s:fmt_bold
 "		Character"
 "		Number"
 "		Boolean"
 "		Float"
 
-exe "hi! Identifier" .s:fg_blue        .s:bg_none   .s:fmt_none
+exe "hi! Identifier" .s:fg_blue        .s:bg_none   .s:fmt_bold
 "exe "hi! Function"  .s:fg_yellow      .s:bg_none   .s:fmt_bold
 
-exe "hi! Statement"  .s:fg_red       .s:bg_none   .s:fmt_none
+exe "hi! Statement"  .s:fg_red       .s:bg_none   .s:fmt_bold
 "		Conditional"
 "		Repeat"
 "		Label"
